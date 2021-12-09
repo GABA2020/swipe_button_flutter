@@ -59,7 +59,7 @@ class StateSwipingButton extends State<SwipingButton> {
   /// The text that the button will display.
   final String text;
   final double height;
-  final doube width;
+  final double width;
 
   /// The callback invoked when the button is swiped.
   final VoidCallback onSwipeCallback;
