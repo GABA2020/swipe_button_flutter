@@ -81,7 +81,7 @@ class StateSwipingButton extends State<SwipingButton> {
   Widget build(BuildContext context) {
     if (buttonTextStyle == null) {
       buttonTextStyle = TextStyle(
-          fontSize: 16.0, fontWeight: FontWeight.w800, color: Colors.white);
+          fontSize: 14.0, fontWeight: FontWeight.w700, color: Colors.white);
     }
     return Container(
       width: MediaQuery.of(context).size.width,
@@ -95,10 +95,10 @@ class StateSwipingButton extends State<SwipingButton> {
                 borderRadius: BorderRadius.circular(height / 2)),
             child: new Center(
               child: Text(
-                text.toUpperCase(),
+                text,
                 style: TextStyle(
-                    fontSize: 16.0,
-                    fontWeight: FontWeight.w800,
+                    fontSize: 14.0,
+                    fontWeight: FontWeight.w700,
                     color: Colors.white),
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
